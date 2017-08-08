@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyledButton">
+        <attr name="buttonStyleType" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="1"/>
+        </attr>
+        <attr name="buttonStrokeWidth" format="dimension"/>
+        <attr name="buttonTextSize" format="float"/>
+        <attr name="buttonStrokeColor" format="color"/>
+        <attr name="buttonTextColor" format="color"/>
+        <attr name="buttonElevation" format="float"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="buttonElevationColor" format="color"/>
+        <attr name="buttonTextGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="center" value="4"/>
+        </attr>
+        <attr name="buttonText" format="string"/>
+        <attr name="buttonRadius" format="float"/>
+    </declare-styleable>
+</resources>
